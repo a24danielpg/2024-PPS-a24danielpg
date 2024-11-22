@@ -1,0 +1,54 @@
+Contraseña: daniel
+daniel@debian:~/repositorios/2024-PPS-a24danielpg$ gpg --full-generate-key 
+gpg (GnuPG) 2.2.40; Copyright (C) 2022 g10 Code GmbH
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Por favor seleccione tipo de clave deseado:
+   (1) RSA y RSA (por defecto)
+   (2) DSA y ElGamal
+   (3) DSA (sólo firmar)
+   (4) RSA (sólo firmar)
+  (14) Existing key from card
+Su elección: 2
+las claves DSA pueden tener entre 1024 y 3072 bits de longitud.
+¿De qué tamaño quiere la clave? (2048) 
+El tamaño requerido es de 2048 bits
+Por favor, especifique el período de validez de la clave.
+         0 = la clave nunca caduca
+      <n>  = la clave caduca en n días
+      <n>w = la clave caduca en n semanas
+      <n>m = la clave caduca en n meses
+      <n>y = la clave caduca en n años
+¿Validez de la clave (0)? 
+La clave nunca caduca
+¿Es correcto? (s/n) s
+
+GnuPG debe construir un ID de usuario para identificar su clave.
+
+Nombre y apellidos: Daniel Pereiro Gomez
+Dirección de correo electrónico: a24danielpg@iessanclemente.net
+Comentario: Claves GPG para Git e GitHub
+Ha seleccionado este ID de usuario:
+    "Daniel Pereiro Gomez (Claves GPG para Git e GitHub) <a24danielpg@iessanclemente.net>"
+
+¿Cambia (N)ombre, (C)omentario, (D)irección o (V)ale/(S)alir? V
+Es necesario generar muchos bytes aleatorios. Es una buena idea realizar
+alguna otra tarea (trabajar en otra ventana/consola, mover el ratón, usar
+la red y los discos) durante la generación de números primos. Esto da al
+generador de números aleatorios mayor oportunidad de recoger suficiente
+entropía.
+gpg: AVISO: ciertos programas OpenPGP no usan claves DSAcon resúmenes de este tamaño
+Es necesario generar muchos bytes aleatorios. Es una buena idea realizar
+alguna otra tarea (trabajar en otra ventana/consola, mover el ratón, usar
+la red y los discos) durante la generación de números primos. Esto da al
+generador de números aleatorios mayor oportunidad de recoger suficiente
+entropía.
+gpg: creado el directorio '/home/daniel/.gnupg/openpgp-revocs.d'
+gpg: certificado de revocación guardado como '/home/daniel/.gnupg/openpgp-revocs.d/1CDA2A0BE7955CFDB8E86F1721FCCEE16BC4D10B.rev'
+claves pública y secreta creadas y firmadas.
+
+pub   dsa2048 2024-11-22 [SC]
+      1CDA2A0BE7955CFDB8E86F1721FCCEE16BC4D10B
+uid                      Daniel Pereiro Gomez (Claves GPG para Git e GitHub) <a24danielpg@iessanclemente.net>
+sub   elg2048 2024-11-22 [E]
