@@ -6,9 +6,9 @@ pipeline {
             echo 'Tarefas para construir, instalar,...'
          }
       }
-      stage('Test') {
+      stage('Comprobación inicial') {
          steps {
-            echo 'Tarefas para realizar test.'
+            sh "ls"
          }
       }
       stage('Deploy') {
