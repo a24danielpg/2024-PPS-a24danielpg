@@ -1,3 +1,4 @@
+/*
 pipeline {
    agent any
    stages {
@@ -18,8 +19,9 @@ pipeline {
       }
    }
 }
+*/
 
-/*
+
 pipeline {
     agent {
       docker { image 'python:3' }
@@ -32,4 +34,3 @@ pipeline {
     }
   }
 }
-*/
